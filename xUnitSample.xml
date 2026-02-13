@@ -7,10 +7,10 @@
         <!--  Caution: A ":" is not allowed in the ZZZZ section. -->
         <!-- An example with the correct formatting: "2026-01-17T17:55:34+0200" -->
         <testsuite>
-            <testcase name="someMethod" classname="SomeClass" time="0.285"/> 
+            <testcase name="前車追従型クルーズコントロールの検証" classname="SomeClass" time="0.285"/> 
             <!-- test case id is "SomeClass.someMethod", time is not required and is in seconds -->
         </testsuite>
-        <testcase name="otherMethod" classname="SomeClass" time="0.001">
+        <testcase name="車線維持アシストの検証" classname="SomeClass" time="0.001">
 <custom-fields>
 <custom-field id="testint">
               <value><xsl:value-of select="1"/></value>
@@ -22,7 +22,7 @@
                 Failure details
             </failure>
         </testcase>
-        <testcase name="otherMethod" classname="OtherClass" time="0.002"> 
+        <testcase name="安全な遠隔ソフトウェア更新の検証" classname="OtherClass" time="0.002"> 
             <error message="error message" type="package.OtherException">
                 Error Details
             </error>
